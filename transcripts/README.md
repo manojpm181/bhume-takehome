@@ -6,7 +6,7 @@
 
 ---
 
-## My Work (90%)
+## My Work 
 
 ### Problem Understanding
 I read the full assignment, understood the cadastral map georeferencing
@@ -69,7 +69,7 @@ or area flagged — was my call based on the rubric's emphasis on restraint.
 
 ---
 
-## AI Assistance (10%)
+## AI Assistance
 
 Claude was used only for:
 
