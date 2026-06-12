@@ -22,7 +22,7 @@ Both villages: 100% accuracy, all truth plots improved, all distances ≤ 0.4m.
 ---
 ## 🖥️ Live Dashboard
 
-**[BhuMe — Plot Correction Dashboard → Open on Streamlit](https://manojpm181-bhume-takehome-dashboard-vebsam.streamlit.app/)**
+**[BhuMe](https://manojpm181-bhume-takehome-dashboard-vebsam.streamlit.app/)**
 Interactive dashboard showing:
 - Per-plot IoU scores, delta, centroid error for both villages
 - Interactive map — official vs prediction vs truth overlaid
