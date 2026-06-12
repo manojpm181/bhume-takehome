@@ -272,18 +272,19 @@ pip install -r requirements.txt
 
 ### Data
 Download village bundles from hiring.bhume.in → Get Started:
-data/
-├── malatavadi/
-│   ├── boundaries.tif
-│   ├── example_truths.geojson
-│   ├── imagery.tif
-│   └── input.geojson
-│
-└── vadnerbhairav/
-    ├── boundaries.tif
-    ├── example_truths.geojson
-    ├── imagery.tif
-    └── input.geojson
+
+    data/
+    ├── malatavadi/
+    │   ├── boundaries.tif
+    │   ├── example_truths.geojson
+    │   ├── imagery.tif
+    │   └── input.geojson
+    │
+    └── vadnerbhairav/
+        ├── boundaries.tif
+        ├── example_truths.geojson
+        ├── imagery.tif
+        └── input.geojson
 
 
 ### Run
@@ -319,58 +320,50 @@ Each `predictions.geojson` is a FeatureCollection in EPSG:4326:
 ---
 
 ## File Structure
-bhume-takehome/
-│
-├── data/
-│   ├── malatavadi/
-│   │   ├── boundaries.tif
-│   │   ├── example_truths.geojson
-│   │   ├── imagery.tif
-│   │   └── input.geojson
-│   │
-│   └── vadnerbhairav/
-│       ├── boundaries.tif
-│       ├── example_truths.geojson
-│       ├── imagery.tif
-│       └── input.geojson
-│
-├── predictions/
-│   ├── malatavadi/
-│   │   └── predictions.geojson
-│   └── vadnerbhairav/
-│       └── predictions.geojson
-│
-├── solution.py              # Main pipeline
-├── correct.py               # Correction engine
-├── confidence.py            # Confidence calibration
-├── utils.py                 # Utility functions
-├── diagnose.py              # Diagnostics
-├── deep_diagnose.py         # Deep analysis
-├── score_local.py           # Local evaluation
-│
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── LICENSE
+    bhume-takehome/
+    │
+    ├── data/
+    │   ├── malatavadi/
+    │   │   ├── boundaries.tif
+    │   │   ├── example_truths.geojson
+    │   │   ├── imagery.tif
+    │   │   └── input.geojson
+    │   │
+    │   └── vadnerbhairav/
+    │       ├── boundaries.tif
+    │       ├── example_truths.geojson
+    │       ├── imagery.tif
+    │       └── input.geojson
+    │
+    ├── predictions/
+    │   ├── malatavadi/
+    │   │   └── predictions.geojson
+    │   └── vadnerbhairav/
+    │       └── predictions.geojson
+    │
+    ├── solution.py              # Main pipeline
+    ├── correct.py               # Correction engine
+    ├── confidence.py            # Confidence calibration
+    ├── utils.py                 # Utility functions
+    ├── diagnose.py              # Diagnostics
+    ├── deep_diagnose.py         # Deep analysis
+    ├── score_local.py           # Local evaluation
+    │
+    ├── requirements.txt
+    ├── README.md
+    ├── .gitignore
+    └── LICENSE
 ---
 
 ## Dependencies
 numpy>=1.24.0
-
 scipy>=1.10.0
-
 scikit-image>=0.21.0
-
 shapely>=2.0.0
-
 rasterio>=1.3.0
-
 geopandas>=0.13.0
-
 pyproj>=3.5.0
-
 opencv-python-headless>=4.8.0
-
 affine>=2.4.0
 
 tqdm>=4.65.0
