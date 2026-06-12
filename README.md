@@ -369,9 +369,7 @@ Each `predictions.geojson` is a FeatureCollection in EPSG:4326:
     pyproj>=3.5.0
     opencv-python-headless>=4.8.0
     affine>=2.4.0
-
-tqdm>=4.65.0
-
-scikit-learn>=1.3.0
+    tqdm>=4.65.0
+    scikit-learn>=1.3.0
 
 
