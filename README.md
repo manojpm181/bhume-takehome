@@ -20,6 +20,15 @@
 Both villages: 100% accuracy, all truth plots improved, all distances ≤ 0.4m.
 
 ---
+## 🖥️ Live Dashboard
+
+**[BhuMe — Plot Correction Dashboard → Open on Streamlit](https://manojpm181-bhume-takehome-dashboard-vebsam.streamlit.app/)**
+Interactive dashboard showing:
+- Per-plot IoU scores, delta, centroid error for both villages
+- Interactive map — official vs prediction vs truth overlaid
+- Confidence distribution across all 2457 / 2508 plots
+- Method summary and pipeline steps
+---
 
 ## The Problem
 
@@ -304,6 +313,12 @@ python solution.py --village data/malatavadi    --out predictions/malatavadi
 ```bash
 python score_local.py --village vadnerbhairav
 python score_local.py --village malatavadi
+```
+
+### To run locally:
+```bash
+pip install streamlit folium streamlit-folium
+streamlit run dashboard.py
 ```
 
 ---
