@@ -1,8 +1,11 @@
 # BhuMe Take-Home — Cadastral Plot Boundary Correction
 
 **Candidate:** Manoj P M 
+
 **Email:** manojpoojari1511@gmail.com
+
 **Submitted:** June 2026  
+
 **Villages:** Vadnerbhairav (Nashik) · Malatavadi (Kolhapur)
 
 ---
