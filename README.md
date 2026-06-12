@@ -356,15 +356,16 @@ Each `predictions.geojson` is a FeatureCollection in EPSG:4326:
 ---
 
 ## Dependencies
-numpy>=1.24.0
-scipy>=1.10.0
-scikit-image>=0.21.0
-shapely>=2.0.0
-rasterio>=1.3.0
-geopandas>=0.13.0
-pyproj>=3.5.0
-opencv-python-headless>=4.8.0
-affine>=2.4.0
+
+    numpy>=1.24.0
+    scipy>=1.10.0
+    scikit-image>=0.21.0
+    shapely>=2.0.0
+    rasterio>=1.3.0
+    geopandas>=0.13.0
+    pyproj>=3.5.0
+    opencv-python-headless>=4.8.0
+    affine>=2.4.0
 
 tqdm>=4.65.0
 
